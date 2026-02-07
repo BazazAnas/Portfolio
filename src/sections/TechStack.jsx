@@ -48,12 +48,12 @@ const TechStack = () => {
                     <div className="tech-grid">
                         {techStackIcons.map((icon) => (
                             <div className="z-20 card-border overflow-hidden xl:rounded-2xl rounded-4xl group"
-                                 key={icon.name}>
+                                key={icon.name}>
                                 <div className="relative tech-animate">
                                     <div className="tech-card-content">
                                         <div className="tech-icon-wrapper">
                                             <TechIcon
-                                            model={icon}
+                                                model={icon}
                                             />
                                         </div>
                                         <div className="padding-x w-full">
