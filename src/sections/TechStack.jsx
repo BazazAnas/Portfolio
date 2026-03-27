@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleHeader from "../components/TitleHeader.jsx";
 import TechIcon from "../components/models/TechIcon.jsx";
 
