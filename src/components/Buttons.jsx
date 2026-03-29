@@ -5,9 +5,9 @@ const Button = ({text, className, id}) => {
             onClick={(e) => {
                 e.preventDefault();
 
-                const target = document.getElementById("counter");
+                const target = document.getElementById("work");
                 if (target && id) {
-                    const offSet = window.innerHeight * 0.2;
+                    const offSet = window.innerHeight * 0.08;
 
                     const top = target.getBoundingClientRect().top + window.scrollY - offSet;
 

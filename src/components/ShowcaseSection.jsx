@@ -47,34 +47,32 @@ const ShowcaseSection = () => {
                     <div className="showcaselayout">
                         <div className="first-project-wrapper" ref={project1Ref}>
                             <div className="image-wrapper">
-                                <img src="" alt="Ryde App Interface"/>
+                                <img src="/images/whispr interface.png" alt="Chat App Interface"/>
                             </div>
                             <div className="text-content">
                                 <h2>
-                                    On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                    called Ryde
+                                    Whispr - A Real-Time Chat Application
                                 </h2>
                                 <p className="text-white-50 md:text-xl">
-                                    An app built with React Native, Expo, & TailwindCSS for a fast,
-                                    user-friendly experience.
+                                    Whispr is a full-stack real-time chat application built with modern web technologies. It supports secure authentication, real-time messaging using Socket.IO, and is designed with production-grade deployment practices.
                                 </p>
                             </div>
                         </div>
 
                         <div className="project-list-wrapper overflow-hidden">
                             <div className="project" ref={project2Ref}>
-                                <div className="image-wrapper bg-[#FFEFDB]">
+                                <div className="image-wrapper bg-[#151515]">
                                     <img
-                                        src=""
-                                        alt="Library Management Platform"
+                                        src="/images/code reviewer interface .png"
+                                        alt="code reviewer app interface"
                                     />
                                 </div>
-                                <h2>The Library Management Platform</h2>
+                                <h2>Code Reviewer Platform</h2>
                             </div>
 
                             <div className="project" ref={project3Ref}>
-                                <div className="image-wrapper bg-[#FFE7EB]">
-                                    <img src="" alt="YC Directory App"/>
+                                <div className="image-wrapper bg-[#151515]">
+                                    <img src="/images/react animation interface.png" alt="React Animation Interface"/>
                                 </div>
                                 <h2>YC Directory - A Startup Showcase App</h2>
                             </div>
