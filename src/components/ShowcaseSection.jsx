@@ -74,7 +74,7 @@ const ShowcaseSection = () => {
                                 <div className="image-wrapper bg-[#151515]">
                                     <img src="/images/react animation interface.png" alt="React Animation Interface"/>
                                 </div>
-                                <h2>YC Directory - A Startup Showcase App</h2>
+                                <h2>React Animation Showcase</h2>
                             </div>
                         </div>
                     </div>
