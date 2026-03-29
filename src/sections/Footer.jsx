@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
 
     const socialImgs = [
@@ -9,18 +7,8 @@ const Footer = () => {
             imgPath: "/images/insta.png",
         },
         {
-            name: "fb",
-            url: "https://www.facebook.com/",
-            imgPath: "/images/fb.png",
-        },
-        {
-            name: "x",
-            url: "https://www.x.com/",
-            imgPath: "/images/x.png",
-        },
-        {
             name: "linkedin",
-            url: "https://www.linkedin.com/",
+            url: "https://www.linkedin.com/in/anas-bin-ajaz/",
             imgPath: "/images/linkedin.png",
         },
     ];
@@ -31,7 +19,7 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer-container">
                     <div className="flex flex-col justify-center items-center">
-                        <a href="">View my projects on GitHub</a>
+                        <a href="https://github.com/BazazAnas">View my projects on GitHub</a>
                     </div>
                     <div className="socials">
                         {socialImgs.map((img) => (
