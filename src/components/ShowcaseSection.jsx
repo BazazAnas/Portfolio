@@ -45,7 +45,7 @@ const ShowcaseSection = () => {
             <div id="work" ref={sectionRef} className="app-showcase">
                 <div className="w-full">
                     <div className="showcaselayout">
-                        <div className="first-project-wrapper" ref={project1Ref}>
+                        <div className="first-project-wrapper" onClick={() => window.location.href = 'https://whispr-gamma-ochre.vercel.app/'} ref={project1Ref}>
                             <div className="image-wrapper">
                                 <img src="/images/whispr interface.png" alt="Chat App Interface"/>
                             </div>
@@ -59,8 +59,8 @@ const ShowcaseSection = () => {
                             </div>
                         </div>
 
-                        <div className="project-list-wrapper overflow-hidden">
-                            <div className="project" ref={project2Ref}>
+                        <div className="project-list-wrapper overflow-hidden" onClick={() => window.location.href = 'https://code-reviewer-five-rho.vercel.app/'}>
+                            <div className="project" ref={project2Ref}  >
                                 <div className="image-wrapper bg-[#151515]">
                                     <img
                                         src="/images/code reviewer interface .png"
@@ -70,7 +70,7 @@ const ShowcaseSection = () => {
                                 <h2>Code Reviewer Platform</h2>
                             </div>
 
-                            <div className="project" ref={project3Ref}>
+                            <div className="project" ref={project3Ref} onClick={() => window.location.href = 'https://gsap-react-animation-showcase.vercel.app/'} >
                                 <div className="image-wrapper bg-[#151515]">
                                     <img src="/images/react animation interface.png" alt="React Animation Interface"/>
                                 </div>
