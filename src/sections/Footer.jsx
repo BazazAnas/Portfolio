@@ -2,11 +2,6 @@ const Footer = () => {
 
     const socialImgs = [
         {
-            name: "insta",
-            url: "https://www.instagram.com/",
-            imgPath: "/images/insta.png",
-        },
-        {
             name: "linkedin",
             url: "https://www.linkedin.com/in/anas-bin-ajaz/",
             imgPath: "/images/linkedin.png",
